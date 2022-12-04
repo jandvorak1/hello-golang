@@ -16,4 +16,4 @@ run:
 
 test:
 	@echo "Executing test..."
-	@go test ./internal/…
+	@go test ./internal/...

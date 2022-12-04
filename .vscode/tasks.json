@@ -25,6 +25,30 @@
         "kind": "build",
         "isDefault": true
       }
+    },
+    {
+      "label": "make run",
+      "type": "shell",
+      "command": "make",
+      "args": [
+        "run"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "make test",
+      "type": "shell",
+      "command": "make",
+      "args": [
+        "test"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
     }
   ]
 }
